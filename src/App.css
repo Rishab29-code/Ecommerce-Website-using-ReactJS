@@ -1,0 +1,52 @@
+.App {
+
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height:100vh
+
+}
+.appHeader{
+  height: 60px;
+  margin-left: 5px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 2px 2px #000;
+}
+.shopIcon{
+  font-size: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.pageContent{
+  display:flex;
+  margin-top: 3px;
+  flex:1; /* covers the space between header and footer */
+  overflow-y: auto;
+}
+.appFooter{
+  height:60px;
+  background-color: rgb(235, 228, 228);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.appFooter a{
+  color:black
+  
+}
+.itemCardImage{
+  height:150px !important;
+  object-fit: scale-down;
+}
+.itemCard,.itemBadge{
+  margin: 8px;
+}
+
+.filterClass{
+  padding:5px
+}
+.menuClass{
+  border:none
+}
